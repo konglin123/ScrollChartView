@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollChartView">
+        <attr name="coordinateAxisWidth" format="dimension" />
+        <attr name="coordinateAxisColor" format="color" />
+        <attr name="groupNameTextColor" format="color" />
+        <attr name="groupNameTextSize" format="dimension" />
+        <attr name="groupInterval" format="dimension" />
+        <attr name="histogramInterval" format="dimension" />
+        <attr name="histogramValueTextColor" format="color" />
+        <attr name="histogramValueTextSize" format="dimension" />
+        <attr name="histogramHistogramWidth" format="dimension" />
+        <attr name="histogramPaddingStart" format="dimension" />
+        <attr name="histogramPaddingEnd" format="dimension" />
+        <attr name="chartPaddingTop" format="dimension" />
+        <attr name="distanceFormGroupNameToAxis" format="dimension" />
+        <attr name="distanceFromValueToHistogram" format="dimension" />
+        <!--图表数值小数点位数-->
+        <attr name="histogramValueDecimalCount">
+            <enum name="ZERO" value="0" />
+            <enum name="ONE" value="1" />
+            <enum name="TWO" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

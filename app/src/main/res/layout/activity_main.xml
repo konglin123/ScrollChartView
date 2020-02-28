@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.scrollchartview.ScrollChartView
+        android:id="@+id/chart_view"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:chartPaddingTop="15dp"
+        app:coordinateAxisColor="#FF727884"
+        app:coordinateAxisWidth="1dp"
+        app:distanceFormGroupNameToAxis="10dp"
+        app:distanceFromValueToHistogram="10dp"
+        app:groupInterval="30dp"
+        app:groupNameTextColor="#FF727884"
+        app:groupNameTextSize="13sp"
+        app:histogramHistogramWidth="20dp"
+        app:histogramInterval="15dp"
+        app:histogramPaddingEnd="15dp"
+        app:histogramPaddingStart="15dp"
+        app:histogramValueDecimalCount="ZERO"
+        app:histogramValueTextColor="#FF727884"
+        app:histogramValueTextSize="10sp" />
+
+</LinearLayout>
